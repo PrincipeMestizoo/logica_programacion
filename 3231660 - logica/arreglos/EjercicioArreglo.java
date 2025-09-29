@@ -15,7 +15,7 @@ public class EjercicioArreglo {
         boolean repetirMenu = true;
 
         while (repetirMenu) {
-            repetirMenu = false;"\n"
+            repetirMenu = false;
 
             System.out.println("\n" + "-----Menu-----");
             System.out.println("1- Agregar tarea");
