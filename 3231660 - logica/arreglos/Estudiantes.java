@@ -72,7 +72,7 @@ public class Estudiantes {
                     break;
 
                 case 5:
-                    int notaBaja = listaCalificaciones[0];
+                    int notaBaja = 0;
                     for (int i = 0; i < listaCalificaciones.length; i++) {
                         if (listaCalificaciones[i] < notaBaja) {
                             notaBaja = listaCalificaciones[i];
