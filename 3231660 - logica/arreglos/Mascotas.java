@@ -29,7 +29,6 @@ public class Mascotas {
             sc.nextLine();
 
             switch (opcion) {
-
                 case 1:
                     if (posicionMascota < mascotas.length) {
                         System.out.println("\n" + "Ingrese el nombre de la mascota:");
@@ -47,7 +46,7 @@ public class Mascotas {
                 case 2:
                     System.out.println("Lista de mascotas de " + nombrePropietario + ":");
                     for (int i = 0; i < mascotas.length; i++) {
-                        System.out.println("- " + mascotas[i]);
+                        System.out.println(i + 1 + "- " + mascotas[i]);
                     }
                     repetirMenu = true;
                     break;
