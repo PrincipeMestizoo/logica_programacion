@@ -39,7 +39,7 @@ public class Estudiantes {
                         repetirMenu = true;
                     }
                     break;
-
+                    
                 case 2:
                     for (int i = 0; i < listaCalificaciones.length; i++) {
                         System.out.println(i + 1 + "- " + listaCalificaciones[i]);
