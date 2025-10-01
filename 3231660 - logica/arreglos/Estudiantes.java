@@ -49,9 +49,9 @@ public class Estudiantes {
                     break;
 
                 case 3:
-                    int sumatoriaNotas = 0;
-                    int promedio = 0;
-                    int numeroNotas = listaCalificaciones.length;
+                    float sumatoriaNotas = 0;
+                    float promedio = 0;
+                    float numeroNotas = listaCalificaciones.length;
 
                     for (int i = 0; i < listaCalificaciones.length; i++) {
                         sumatoriaNotas += listaCalificaciones[i];
